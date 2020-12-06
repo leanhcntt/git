@@ -1,0 +1,4 @@
+Phải trở về nhánh chính trước khi merge
+git checkout master
+git merge hotfix
+Lệnh merge hotfix vào master, trong trường khác cần phải xử lý conflict

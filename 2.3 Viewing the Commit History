@@ -1,0 +1,33 @@
+Hiển thị danh sách lịch sử commit
+git log
+Hiển thị chi tiết nội dung thay đổi trong từng commit, giới hạn số lượng commit
+git log -p -2
+Hiển thị log phân tích, bao gồm thông tin tập tin thay đổi, số dòng thay đổi
+git log --stat
+Hiển thị nhật ký với các thông tin được định dạng
+git log --pretty=oneline
+git log --pretty=format:"%h - %an, %ar : %s" --graph
+Bộ định danh	Mô tả đầu ra
+%H Cam kết băm
+%h Mã băm cam kết viết tắt
+%T Băm cây
+%t Băm cây viết tắt
+%P Băm cha
+%p Dấu ngoặc đơn viết tắt
+%an Tên tác giả
+%ae Email tác giả
+%ad Ngày của tác giả (định dạng tuân theo tùy chọn --date =)
+%ar Ngày tác giả, người thân
+%cn Tên người cam kết
+%ce Email của người cam kết
+%cd Ngày cam kết
+%cr Ngày cam kết, người thân
+%s Môn học
+Giới hạn đầu ra nhật ký
+git log --since=2.weeks
+Tìm theo text
+git log -S function_name
+Tên tập tin
+git log -- path/to/file
+
+git log --oneline --decorate --graph --all

@@ -1,0 +1,6 @@
+Khi rebase cần checkout nhánh được rebase
+git checkout experiment
+Sau đó rebase vào nhánh master
+git rebase master
+
+Rebase khi rẽ nhánh lần 2 từ nhánh đã rẽ

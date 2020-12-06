@@ -1,0 +1,11 @@
+Hiển thị tất cả thông tin
+git config --list --show-origin
+Danh tính của bạn
+git config --global user.name "Le Tuan Anh"
+git config --global user.email leanhcntt@gmail.com
+Biên tập viên của bạn
+git config --global core.editor emacs
+Tên chi nhánh mặc định của bạn
+git config --global init.defaultBranch main
+Hiển thị giá trị
+git config user.name

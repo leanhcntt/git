@@ -1,0 +1,6 @@
+Commit chưa được push lên server
+git reset --soft HEAD~1 (Xoá commit cuối)
+Đưa ngược nội dung vào staged
+
+git reset --hard HEAD~1
+(Huỷ trực tiếp)

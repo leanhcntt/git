@@ -1,0 +1,17 @@
+git branch
+git branch -v
+Đứng ở nhánh chính, muốn biết nhánh nào được tách ra và đã được merge
+git branch --merged
+Chưa được merge
+git branch --no-merged
+Xoá nhánh
+git branch -d testing
+Chuyển nhánh
+git switch master
+Thay đổi tên chi nhánh
+git branch --move bad-branch-name corrected-branch-name
+Thay đổi tên nhánh trên server
+git push --set-upstream origin corrected-branch-name
+Xoá
+git push origin --delete bad-branch-name
+Khi thay đổi tên nhóm chính cần chú ý liên lạc tương tác với mọi người.

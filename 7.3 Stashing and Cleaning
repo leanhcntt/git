@@ -1,0 +1,11 @@
+Nếu là tập tin mới thì phải đưa vào bằng lệnh
+git add .
+Lưu trữ công việc (đang dở dang, trước khi commit)
+git stash push
+Hiển thị danh sách
+git stash list
+Lưu trữ được lưu không phụ thuộc vào việc đang đứng ở nhánh nào.
+git stash apply (áp dụng lưu trữ đầu)
+git stash apply -- index 2
+xoá
+git stash drop stash@{0}

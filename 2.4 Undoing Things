@@ -1,0 +1,9 @@
+Thêm mới file vào commit, chỉ thêm mới khi commit chưa được push
+-> Nếu commit đã được push rồi thì sẽ bị phát sinh commit merge
+git commit --amend
+
+Loại bỏ sau khi git add *
+git restore --staged CONTRIBUTING.md
+
+Unmodifying a Modified File (Sau khi sửa)
+git restore

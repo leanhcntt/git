@@ -1,0 +1,17 @@
+Merge Conflicts
+Xem trạng thái
+git status -sb
+Nếu bị conflict mà muốn huỷ Merge
+git merge --abort
+Ignoring Whitespace
+git merge -Xignore-space-change whitespace
+Thay đổi cách trình bày khi conflict
+git config --global merge.conflictstyle diff3
+
+Undoing Merges
+git reset --hard HEAD~
+
+Reverse the commit
+git revert -m 1 HEAD
+
+-> Có thể sử dụng tự giải quyết xung đột

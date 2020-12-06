@@ -1,0 +1,3 @@
+Thay đổi commit cuối mà không thay đổi message
+git commit --amend --no-edit
+Thay đổi nhiều thông báo của commit

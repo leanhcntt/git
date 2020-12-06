@@ -1,0 +1,16 @@
+Kiểm tra trạng thái tệp của bạn
+git status -s
+Bỏ qua tệp
+.gitignore
+Xem các thay đổi theo giai đoạn và không theo giai đoạn của bạn
+git diff (so sánh gốc với bản sửa)
+git diff --cached (so sánh gốc với cached)
+git diff --staged
+Cam kết các thay đổi của bạn
+git commit -m ""
+Bỏ qua khu vực staged
+git commit -a -m ""
+Xoá tệp khỏi khu vực staged
+git rm --cached <>
+Di chuyển tệp
+git mv <f1> <f2>

@@ -1,0 +1,15 @@
+git remote
+git remote -v
+git remote add pb https://github.com/paulboone/ticgit
+
+Fetching and Pulling from Your Remotes
+git fetch pb
+-> Muốn thấy sự thay đổi khi fetch: git diff origin/main main
+git Pull
+
+Pushing to Your Remotes
+git push origin master
+
+git remote rename pb paul
+
+git remote remove paul

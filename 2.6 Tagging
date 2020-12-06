@@ -1,0 +1,15 @@
+git tag
+git tag -l "v1.8.4*"
+
+git tag -a v1.4 -m "my version 1.4"
+git tag v1.4-lw
+git push origin v1.4
+git push origin --tags
+
+git tag -d v1.4
+git push origin --delete v1.4
+
+git checkout v1.4
+
+git show v1.4
+

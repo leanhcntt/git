@@ -1,0 +1,2 @@
+Hiển thị lịch sử với chuỗi id được rút gọn
+git log --abbrev-commit --pretty=oneline
