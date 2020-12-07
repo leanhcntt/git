@@ -1,4 +1,4 @@
-Hướng dẫn các lệnh sử dụng git cơ bản
+Hướng dẫn các lệnh sử dụng git cơ bản.
 Bước 0: Quan sát lại tổng thể những file mình đã thay đổi xem có vấn đề gì không, những file của người khác mà mình thay đổi nháp thì phải discard, những file dư thừa chưa được liệt kê vào trong gitignore. Nếu có thay đổi gitignore thì ưu tiên commit gitignore trước.
 Bước 1: Đưa toàn bộ những file của chúng ta muốn commit vào khu vực stage, và tiến hành lưu trữ stash (để đảm bảo rằng source của chúng ta vừa làm được lưu an toàn).
 Bước 2: Tiến hành fetch và pull về nếu có thay đổi.
